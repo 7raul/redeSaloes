@@ -1,15 +1,19 @@
 <template>
     <div>
         <div class="header-container">
-            <div class="heade-1">
+            <div class="header-1">
                 <div id="logo">
-                    <h1>Rede<span class="red">@</span>Salões</h1>
+                    <h1>Rede<span id="red">@</span>Salões</h1>
                 </div>
 
                 <div id="login-logut">
-                    <router-link to="/">Entrar</router-link> 
-                    <router-link to="/">Minha Empresa</router-link>
+                    <router-link to="/"><span id="border-entrar">Entrear</span></router-link> 
+                    <router-link to="/">Meu negocio</router-link>
                 </div>
+            </div>
+
+            <div class="header-2">
+                
             </div>
         </div>
     </div>
@@ -20,3 +24,7 @@
         name: 'headerComponent'
     }
 </script>
+
+<style scoped>
+    @import '@/styles/home/headerComponent.sass'
+</style>
