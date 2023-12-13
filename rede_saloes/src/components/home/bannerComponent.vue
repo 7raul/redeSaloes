@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h1>Banner</h1>
+        <div class="banner-container">
+            <div class="right-banner">
+            </div>
+        </div>
     </div>
 </template>
 
@@ -11,5 +14,5 @@
 </script>
 
 <style scoped>
-    
+    @import '@/styles/home/bannerComponent.sass'
 </style>
