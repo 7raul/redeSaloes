@@ -13,7 +13,15 @@
             </div>
 
             <div class="header-2">
-                
+                <div class="menu-container">
+                    <router-link to="/">Cabelo</router-link>
+                    <router-link to="/">Unhas</router-link>
+                    <router-link to="/">Homen</router-link>
+                    <router-link to="/">Mulher</router-link>
+                    <router-link to="/">Massagem</router-link>
+                    <router-link to="/">Tratamento facial</router-link>
+                    <router-link to="/">Depilação</router-link>
+                </div>
             </div>
         </div>
     </div>
