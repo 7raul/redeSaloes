@@ -1,7 +1,10 @@
 .saloes-component{
     width: 100%;
-    position: relative;
-    margin: 56px;   
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 56px;
 
     .card-saloes {
         position: relative;
@@ -84,7 +87,7 @@
                 }
 
                 p {
-                    font-size: 1rem;    
+                    font-size: 1.2rem;    
                 }
             }    
 
@@ -99,9 +102,18 @@
                 } 
 
                 p {
-                    font-size: 1rem;    
+                    font-size: 1.2rem;    
                 }
             }
+        }
+
+        button {
+            width: 100%;
+            border: none;
+            padding: 1rem;
+            color: #fff;    
+            background-color: #D13131;
+            font-size: 1rem;
         }
     } 
 }
