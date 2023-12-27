@@ -4,6 +4,7 @@
     <bannerComponent />
     <searchComponent />
     <saloesComponent />
+    <worksComponent />
   </div>
 </template>
 
@@ -12,6 +13,7 @@
   import bannerComponent from '@/components/home/bannerComponent.vue'
   import searchComponent from '@/components/home/searchComponent.vue'
   import saloesComponent from '@/components/home/saloesComponent.vue'
+  import worksComponent from '@/components/home/worksComponent.vue'
   export default {
     name: 'HomeView',
 
@@ -19,7 +21,8 @@
       headerComponent,
       bannerComponent,
       searchComponent,
-      saloesComponent
+      saloesComponent,
+      worksComponent
     }
   }
 </script>
