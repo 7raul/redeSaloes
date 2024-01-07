@@ -7,15 +7,57 @@
         text-transform: uppercase;
         color: #726f6f;
         font-size: 2rem;  
-        font-weight: bold;   
-        margin-bottom: 2rem;
+        font-weight: bold;
 
         .red {
             color: #D13131;  
         }  
     }  
 
-    .coment {
-            
+    .input-feedbacks {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 56px;
+        position: relative;
+
+        .feedback-area {
+            position: relative;
+
+            textarea {
+                padding: 1rem;
+                width: 25rem;
+                height: 10rem;
+                border-radius: 1rem;
+                margin-right: 1rem;
+                font-size: 20px;
+                border: none;
+                background-color: #D4D9D4;
+                outline: none;
+                transition: 0.2s;   
+            }  
+
+            textarea:hover {
+                outline: #BA9292;
+                padding-right: 1rem;    
+            }
+
+            button {
+                display: block;   
+                width: 25rem;
+                padding: 1rem;  
+                border-radius: 1rem;
+                font-size: 20px;
+                border: none;
+                background-color: #D13131;
+                color: #fff;
+                transition: background 0.2s; 
+                margin-top: 1rem;
+            }
+
+            button:hover {
+                background-color: #912C2C; 
+            };
+        }
     }
 }
