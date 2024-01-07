@@ -6,6 +6,7 @@
     <saloesComponent />
     <worksComponent />
     <aboutComponent />
+    <feedbackComponent />
   </div>
 </template>
 
@@ -16,6 +17,8 @@
   import saloesComponent from '@/components/home/saloesComponent.vue'
   import worksComponent from '@/components/home/worksComponent.vue'
   import aboutComponent from '@/components/home/aboutComponent.vue'
+  import feedbackComponent from '@/components/home/feedbackComponent.vue'
+
   export default {
     name: 'HomeView',
 
@@ -25,7 +28,8 @@
       searchComponent,
       saloesComponent,
       worksComponent,
-      aboutComponent
+      aboutComponent,
+      feedbackComponent
     }
   }
 </script>
