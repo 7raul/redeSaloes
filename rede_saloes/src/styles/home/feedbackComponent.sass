@@ -1,16 +1,16 @@
 .feedback-container {
     width: 100%; 
-    text-align: center;
     margin-top: 56px;
 
     h1 {
+        text-align: center;
         text-transform: uppercase;
         color: #726f6f;
         font-size: 2rem;  
         font-weight: bold;
 
         .red {
-            color: #D13131;  
+            color: #D13131;
         }  
     }  
 
@@ -58,6 +58,43 @@
             button:hover {
                 background-color: #912C2C; 
             };
+        }
+
+        .feedbacks-area {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+
+            .feedback {
+                width: 20rem;
+                height: 15rem;
+                background-color: #912C2C;
+                padding: 10px;
+                border-radius: 1rem;
+                color: #fff;
+
+                .feedback-profile {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                    
+                    img {
+                        width: 50px;
+                        border-radius: 50%; 
+                    }  
+
+                    p {
+                        color: #e2dada;   
+                    } 
+                }  
+
+                .feedback-content {
+                    margin-top: 1rem;   
+                    font-size: 17px; 
+                }  
+            }    
         }
     }
 }

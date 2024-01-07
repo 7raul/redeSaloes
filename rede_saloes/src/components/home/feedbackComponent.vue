@@ -13,10 +13,45 @@
                     <div class="feedback">
                         <div class="feedback-profile">
                             <img :src="profileImg" :alt="profileAlt">
+                            <p>Miguel Julino</p>
                         </div>
 
                         <div class="feedback-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Dicta ut esse autem earum, nesciunt veniam, dolore quis reiciendis odit sed omnis 
+                                unde sapiente. Consectetur nisi voluptate similique quo molestiae cumque.
+                            </p>
+                        </div>
+                    </div>
 
+                    <div class="feedback">
+                        <div class="feedback-profile">
+                            <img :src="profileImg" :alt="profileAlt">
+                            <p>Miguel Julino</p>
+                        </div>
+
+                        <div class="feedback-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Dicta ut esse autem earum, nesciunt veniam, dolore quis reiciendis odit sed omnis 
+                                unde sapiente. Consectetur nisi voluptate similique quo molestiae cumque.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <div class="feedback-profile">
+                            <img :src="profileImg" :alt="profileAlt">
+                            <p>Miguel Julino</p>
+                        </div>
+
+                        <div class="feedback-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Dicta ut esse autem earum, nesciunt veniam, dolore quis reiciendis odit sed omnis 
+                                unde sapiente. Consectetur nisi voluptate similique quo molestiae cumque.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -27,7 +62,13 @@
 
 <script>
     export default {
-        name: 'feedbackComponent'
+        name: 'feedbackComponent',
+
+        data() {
+            return {
+                profileImg: require("@/assets/perfil.jpg")
+            }
+        }
     }
 </script>
 
