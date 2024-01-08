@@ -54,7 +54,12 @@
                             </p>
                         </div>
                     </div>
-                </div>
+
+                    <div class="left-right">
+                        <i class="ri-arrow-left-s-line" id="left"></i>
+                        <i class="ri-arrow-right-s-line" id="right"></i>   
+                    </div>
+                </div>    
             </div>
         </div>
     </div>
