@@ -7,6 +7,8 @@
     <worksComponent />
     <aboutComponent />
     <feedbackComponent />
+    <footerComponent />
+    
   </div>
 </template>
 
@@ -18,6 +20,7 @@
   import worksComponent from '@/components/home/worksComponent.vue'
   import aboutComponent from '@/components/home/aboutComponent.vue'
   import feedbackComponent from '@/components/home/feedbackComponent.vue'
+  import footerComponent from '@/components/home/footerComponent.vue'
 
   export default {
     name: 'HomeView',
@@ -29,7 +32,8 @@
       saloesComponent,
       worksComponent,
       aboutComponent,
-      feedbackComponent
+      feedbackComponent,
+      footerComponent
     }
   }
 </script>
