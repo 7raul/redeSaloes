@@ -14,8 +14,9 @@
 
             <div class="header-2">
                 <div class="menu-container">
-                    <router-link to="/">Cabelo</router-link>
-                    <router-link to="/">Unhas</router-link>
+                    <router-link to="/">Inicio</router-link>
+                    <router-link to="/cabelo">Cabelo</router-link>
+                    <router-link to="/unhas">Unhas</router-link>
                     <router-link to="/">Homen</router-link>
                     <router-link to="/">Mulher</router-link>
                     <router-link to="/">Massagem</router-link>
