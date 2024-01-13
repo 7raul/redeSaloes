@@ -17,8 +17,8 @@
                     <router-link to="/">Inicio</router-link>
                     <router-link to="/cabelo">Cabelo</router-link>
                     <router-link to="/unhas">Unhas</router-link>
-                    <router-link to="/">Homen</router-link>
-                    <router-link to="/">Mulher</router-link>
+                    <router-link to="/homen">Homen</router-link>
+                    <router-link to="/mulher">Mulher</router-link>
                     <router-link to="/">Massagem</router-link>
                     <router-link to="/">Tratamento facial</router-link>
                     <router-link to="/">Depilação</router-link>
