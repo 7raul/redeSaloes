@@ -22,6 +22,7 @@
                     <router-link to="/">Massagem</router-link>
                     <router-link to="/">Tratamento facial</router-link>
                     <router-link to="/">Depilação</router-link>
+                    <router-link to="/">Mackup</router-link>
                 </div>
             </div>
         </div>
