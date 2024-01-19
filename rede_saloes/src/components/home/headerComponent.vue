@@ -19,8 +19,8 @@
                     <router-link to="/unhas">Unhas</router-link>
                     <router-link to="/homen">Homen</router-link>
                     <router-link to="/mulher">Mulher</router-link>
-                    <router-link to="/">Massagem</router-link>
-                    <router-link to="/">Tratamento facial</router-link>
+                    <router-link to="/massagem">Massagem</router-link>
+                    <router-link to="/tratamentoFacial">Tratamento facial</router-link>
                     <router-link to="/">Depilação</router-link>
                     <router-link to="/">Mackup</router-link>
                 </div>

@@ -34,6 +34,16 @@ const routes = [
     path: '/mulher',
     name: 'mulher',
     component: () => import(/* webpackChunkName: "about" */ '../views/MulherView.vue')
+  },
+  {
+    path: '/massagem',
+    name: 'massagem',
+    component: () => import(/* webpackChunkName: "about" */ '../views/MassagemView.vue')
+  },
+  {
+    path: '/tratamentoFacial',
+    name: 'tratamentoFacial',
+    component: () => import(/* webpackChunkName: "about" */ '../views/TratamentoFacialView.vue')
   }
 ]
 

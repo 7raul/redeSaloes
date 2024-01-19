@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="banner-mulher">
+        <div class="banner-homen">
             <div class="banner">
                 
             </div>
