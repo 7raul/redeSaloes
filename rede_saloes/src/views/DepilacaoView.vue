@@ -12,7 +12,7 @@
     import footerComponent from '@/components/home/footerComponent.vue'
 
     export default {
-        name: 'MassagemView',
+        name: 'DepilacaoView',
 
         components: {
             headerComponent,

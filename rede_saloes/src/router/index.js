@@ -49,6 +49,11 @@ const routes = [
     path: '/depilacao',
     name: 'depilacao',
     component: () => import(/* webpackChunkName: "about" */ '../views/DepilacaoView.vue')
+  },
+  {
+    path: '/mackup',
+    name: 'mackup',
+    component: () => import(/* webpackChunkName: "about" */ '../views/MackupView.vue')
   }
 ]
 

@@ -11,7 +11,7 @@
     import bannerMulher from '@/components/mulher/bannerMulher.vue'
     import footerComponent from '@/components/home/footerComponent.vue'
     export default {
-        name: 'UnhasView',
+        name: 'MulherView',
 
         components: {
             headerComponent,
