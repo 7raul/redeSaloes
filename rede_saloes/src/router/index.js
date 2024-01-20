@@ -44,6 +44,11 @@ const routes = [
     path: '/tratamentoFacial',
     name: 'tratamentoFacial',
     component: () => import(/* webpackChunkName: "about" */ '../views/TratamentoFacialView.vue')
+  },
+  {
+    path: '/depilacao',
+    name: 'depilacao',
+    component: () => import(/* webpackChunkName: "about" */ '../views/DepilacaoView.vue')
   }
 ]
 
