@@ -1,9 +1,7 @@
 <template>
     <div>
         <div class="banner-cabelo">
-            <div class="banner">
-                
-            </div>
+            <h1>Encontre aqui os melhores lugares para cuidar do seu cabelo</h1>
         </div>
     </div>
 </template>
