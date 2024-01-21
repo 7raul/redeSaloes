@@ -1,9 +1,7 @@
 <template>
     <div>
         <div class="banner-homen">
-            <div class="banner">
-                
-            </div>
+            <h1>Encontre aqui os melhores salões para homens</h1>
         </div>
     </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="searchCabelo-component">
-            <h2>Salões para depilação <span class="red">perto de mim</span></h2>
+            <h2>Salões para mackup <span class="red">perto de mim</span></h2>
 
             <form action="#">
                 <input type="text" placeholder="Pesquisar por cidade...">
@@ -103,7 +103,7 @@
 
 <script>
     export default {
-        name: 'searchDepilacao',
+        name: 'searchHomen',
 
         data() {
             return {

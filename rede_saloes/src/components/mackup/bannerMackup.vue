@@ -1,9 +1,7 @@
 <template>
     <div>
         <div class="banner-mackup">
-            <div class="banner">
-                
-            </div>
+            <h1>Encontre aqui os melhores salões para dar aquela reauçada na sua beleza</h1>
         </div>
     </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="searchCabelo-component">
-            <h2>Salões de cabelo <span class="red">perto de mim</span></h2>
+            <h2>Salões para cabelo <span class="red">perto de mim</span></h2>
 
             <form action="#">
                 <input type="text" placeholder="Pesquisar por cidade...">
