@@ -54,6 +54,11 @@ const routes = [
     path: '/mackup',
     name: 'mackup',
     component: () => import(/* webpackChunkName: "about" */ '../views/MackupView.vue')
+  },
+  {
+    path: '/entrar',
+    name: 'entrar',
+    component: () => import(/* webpackChunkName: "about" */ '../views/EntrarView.vue')
   }
 ]
 

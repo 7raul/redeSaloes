@@ -1,0 +1,51 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 12.5%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+    .menu-container {
+        display: flex;
+        gap: 1rem;
+        text-transform: uppercase;
+
+        a {
+            text-decoration: none; 
+            font-size: 1.1rem; 
+            color: #726f6f;   
+        }  
+
+        a:hover{
+            color: #D13131;   
+        }
+    }
+
+    .empresa-component {
+        text-transform: uppercase;
+        
+        a {
+            text-decoration: none; 
+            font-size: 1.1rem; 
+            color: #D13131;   
+        }
+
+        a:hover{
+            color: #726f6f;  
+        }        
+    }
+}
+
+.backgound{
+    width: 100%;
+    height: 100vh;
+    background: url('backgroundEntrar.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+}

@@ -7,7 +7,7 @@
                 </div>
 
                 <div id="login-logut">
-                    <router-link to="/"><span id="border-entrar">Entrear</span></router-link> 
+                    <router-link to="/entrar"><span id="border-entrar">Entrear</span></router-link> 
                     <router-link to="/">Meu negocio</router-link>
                 </div>
             </div>
