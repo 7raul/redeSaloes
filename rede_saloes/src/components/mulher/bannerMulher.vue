@@ -1,9 +1,7 @@
 <template>
     <div>
         <div class="banner-mulher">
-            <div class="banner">
-                
-            </div>
+            <h1>Encontre aqui os melhores salões para Mulheres</h1>
         </div>
     </div>
 </template>

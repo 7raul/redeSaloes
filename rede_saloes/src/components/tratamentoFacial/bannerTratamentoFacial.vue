@@ -1,9 +1,7 @@
 <template>
     <div>
         <div class="banner-tratamentoFacial">
-            <div class="banner">
-                
-            </div>
+            <h1>Encontre aqui os melhores salões para o seu tratamento facial</h1>
         </div>
     </div>
 </template>

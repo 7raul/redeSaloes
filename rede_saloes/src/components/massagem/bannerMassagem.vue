@@ -1,9 +1,7 @@
 <template>
     <div>
         <div class="banner-massagem">
-            <div class="banner">
-                
-            </div>
+            <h1>Encontre aqui os melhores salões para relaxar seu corpo</h1>
         </div>
     </div>
 </template>

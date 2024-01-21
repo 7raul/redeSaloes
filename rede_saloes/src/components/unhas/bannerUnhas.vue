@@ -1,9 +1,7 @@
 <template>
     <div>
         <div class="banner-unhas">
-            <div class="banner">
-                
-            </div>
+            <h1>Encontre aqui os melhores salões para cuidar das suas unhas</h1>
         </div>
     </div>
 </template>
