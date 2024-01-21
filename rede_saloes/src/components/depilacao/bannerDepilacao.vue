@@ -1,9 +1,7 @@
 <template>
     <div>
         <div class="banner-depilacao">
-            <div class="banner">
-                
-            </div>
+            <h1>Encontre aqui os melhores lugares para retirar seus pelos</h1>
         </div>
     </div>
 </template>
