@@ -1,8 +1,7 @@
 <template>
     <div>
         <div class="banner-container">
-            <div class="right-banner">
-            </div>
+            <h1>Se procura por um salão você está no lugar certo</h1>
         </div>
     </div>
 </template>
