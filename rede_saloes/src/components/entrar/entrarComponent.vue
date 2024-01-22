@@ -14,6 +14,7 @@
             </div>
 
             <div class="empresa-component">
+                <router-link to="/">Inicio</router-link>
                 <router-link to="/">Minha Empresa</router-link>
             </div>
         </div>
@@ -52,12 +53,12 @@
 
                         <div class="input-box">
                             <label for="email">E-mail</label>
-                            <input type="email" required>
+                            <input type="email" placeholder="Seu e-mail" required>
                         </div>
 
                         <div class="input-box">
                             <label for="password">Senha</label>
-                            <input type="password" required>
+                            <input type="password" placeholder="Sua senha" required>
                         </div>
 
                         <div class="remember-forgot">
