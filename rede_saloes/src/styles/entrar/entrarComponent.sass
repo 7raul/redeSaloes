@@ -18,7 +18,7 @@
         a {
             text-decoration: none; 
             font-size: 1.1rem; 
-            color: #726f6f;   
+            color: #e6e0e0;    
         }  
 
         a:hover{
@@ -44,8 +44,136 @@
 .backgound{
     width: 100%;
     height: 100vh;
-    background: url('backgroundEntrar.jpg') no-repeat;
+    background: url('@/assets/backgroundEntrar.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     filter: blur(10px);
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    min-height: 550px;
+    background: url('@/assets/backgroundEntrar.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 20px;    
+
+    .login-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 58%;
+        height: 100%;
+        background: transparent;
+        padding: 80px;
+        color: #e4e4e4;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column; 
+
+        #logo{
+            color: #726f6f;
+            font-size: 1rem;  
+            text-transform: uppercase;
+
+            #red{
+                color: #D13131;
+            } 
+        };  
+
+        .text-sci {
+            h2{
+                font-size: 40px;
+                line-height: 1;
+                color: #726f6f;
+
+                span{
+                    font-size: 25px;
+                }
+            }
+
+            p {
+                margin-bottom: 1rem;
+                font-size: 1.2rem;    
+            }
+
+            .social-icon {
+                a {
+                    text-decoration: none;  
+
+                    i {
+                        font-size: 22px;
+                        color: #e4e4e4;
+                        margin-right: 10px;
+                        transition: .5s ease;    
+                    }  
+                }    
+            }
+        }
+    }
+
+    .logreg-box {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: calc(100% - 58%);
+        height: 100%;
+        overflow: hidden;   
+
+        .form-box {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            backdrop-filter: blur(20px);
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            color: #e4e4e4; 
+
+            h2{
+                font-size: 32px;
+                text-align: center;
+            }   
+
+            .input-box{
+                position: relative;
+                width: 340px;
+                height: 50px;
+                border-bottom: 2px solid #e4e4e4;
+                margin: 30px 0;
+            }
+        } 
+
+        .form-box.login{
+            transform: translateX(0);
+            transition: transform .6s ease;
+            transition-delay: .7s;
+        }
+
+        .form-box.register{
+            transform: translateX(540px);
+            transition: transform .6s ease;
+            transition-delay: 0;
+        } 
+    }
+
+    .logreg-box.active {
+        .form-box.login{
+            transform: translateX(540px);
+            transition-delay: 0s;
+        }   
+
+        .form-box.register{
+            transform: translateX(0);
+            transition-delay: .7s;
+        }
+    }
 }

@@ -75,6 +75,7 @@
                     </form>
                 </div>
 
+                <!--
                 <div class="form-box register">
                     <form action="#">
                         <h2>Registrar como</h2>
@@ -99,6 +100,8 @@
                         </div>
                     </form>
                 </div>
+
+                -->
             </div>
         </div>
     </div>
