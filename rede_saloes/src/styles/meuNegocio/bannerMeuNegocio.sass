@@ -1,0 +1,139 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 12.5%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+    .menu-container {
+        display: flex;
+        gap: 1rem;
+        text-transform: uppercase;
+
+        a {
+            text-decoration: none; 
+            font-size: 1.1rem; 
+            color: #e6e0e0;    
+        }  
+
+        a:hover{
+            color: #D13131;   
+        }
+    }
+
+    .empresa-component {
+        text-transform: uppercase;
+        display: flex;
+        gap: 1rem;
+        
+        a {
+            text-decoration: none; 
+            font-size: 1.1rem; 
+            color: #e6e0e0;    
+        }
+
+        a:hover{
+            color: #D13131; 
+        }        
+    }
+}
+
+.backgound-meuNegocio{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.2)), url('@/assets/BackgroundMeuNegocio.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pacotes-component {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    margin-top: 20px;  
+    text-align: center;
+    color: #e6e0e0; 
+    text-transform: uppercase;
+
+    h2 {
+        text-transform: uppercase;
+        color: #e6e0e0; 
+        font-size: 2rem;  
+        font-weight: bold;
+
+        .red {
+            color: #D13131;  
+        }
+    };  
+
+    .pacotes-content {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        margin-top: 6rem;
+
+        .pacote {
+            position: relative;
+            width: 25rem;
+            backdrop-filter: blur(2px);
+            border: 3px solid #726f6f;
+            border-radius: 10px;
+
+            h3 {
+                margin-top: 1.5rem;  
+                color: #b9b6b6;  
+            }
+
+            .preco-pacote {
+                margin-top: 2rem; 
+
+                h2 {
+                    color: #D13131;  
+
+                    span {
+                        text-transform: none;
+                        font-size: 18px;
+                        color: #977676;     
+                    }  
+                }  
+            }
+
+            .vantagens {
+                margin-top: 1.5rem; 
+                margin-bottom: 1.5rem; 
+                text-transform: none;
+
+                p {
+                    font-size: 19px;
+                    margin-bottom: .5rem;  
+                }  
+            }
+
+            button{
+                width: 70%;
+                padding: 1rem;
+                margin-top: 1rem;
+                background-color: #cf7070;
+                border: none;
+                color: #e6e0e0; 
+                font-size: 1.2rem;  
+                border-radius: 5px; 
+                font-weight: 500;
+                transition: .7s
+            }
+
+            button:hover {
+                background-color: transparent;  
+                border: 2px solid #cf7070;
+                color: #cf7070;
+            }
+        }
+    } 
+}

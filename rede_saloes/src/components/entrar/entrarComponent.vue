@@ -14,12 +14,11 @@
             </div>
 
             <div class="empresa-component">
-                <router-link to="/">Inicio</router-link>
-                <router-link to="/">Minha Empresa</router-link>
+                <router-link to="/meuNegocio">Minha Empresa</router-link>
             </div>
         </div>
 
-        <div class="backgound"></div>
+        <div class="backgound-entrar"></div>
 
         <div class="login-container">
             <div class="login-content">
@@ -71,7 +70,7 @@
                         <button type="submit" class="btn">Entrar</button>
 
                         <div class="login-register">
-                            <p>Ainda não tem uma conta? <a href="#" class="register-link">Sign up</a></p>
+                            <p>Ainda não tem uma conta? <router-link to="#">Criar conta</router-link></p>
                         </div>
                     </form>
                 </div>
