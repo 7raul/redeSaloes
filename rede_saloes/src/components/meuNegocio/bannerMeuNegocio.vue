@@ -74,16 +74,22 @@
         </div>
 
         <gratisComponent />
+        <normalComponent />
+        <premiumComponent />
     </div>
 </template>
 
 <script>
     import gratisComponent from "@/components/meuNegocio/gratisComponent.vue"
+    import normalComponent from "@/components/meuNegocio/normalComponent.vue"
+    import premiumComponent from "@/components/meuNegocio/premiumComponent.vue"
     export default {
         name: 'bannerMeuNegocio',
 
         components: {
-            gratisComponent
+            gratisComponent,
+            normalComponent,
+            premiumComponent
         }
     }
 </script>

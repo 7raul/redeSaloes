@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="cadastro-container">
-            <h2>Introduz os teus dados para <span class="red">solicitar teste gratuito</span></h2>
+            <h2>Introduz os teus dados para <span class="red">solicitar sua subscição premium</span></h2>
 
             <div class="form-component">
                 <form action="#">
@@ -71,7 +71,7 @@
                     </div>
 
                     <div class="textarea-box">
-                        <textarea name="texto">Escreva um testo que atraia os clientes até você (Opcional)</textarea>
+                        <textarea name="texto">Escreva um testo que atraia os clientes até você</textarea>
                     </div>
 
                     <div class="input-box">
@@ -88,10 +88,10 @@
 
 <script>
     export default {
-        name: 'gratisComponent'
+        name: 'normalComponent'
     }
 </script>
 
 <style scoped>
-    @import '@/styles/meuNegocio/gratisComponent.sass'
+    @import '@/styles/meuNegocio/gratisComponent.sass';
 </style>
