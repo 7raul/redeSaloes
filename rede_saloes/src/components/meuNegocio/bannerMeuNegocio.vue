@@ -72,12 +72,19 @@
                 </div>
             </div>
         </div>
+
+        <gratisComponent />
     </div>
 </template>
 
 <script>
+    import gratisComponent from "@/components/meuNegocio/gratisComponent.vue"
     export default {
-        name: 'bannerMeuNegocio'
+        name: 'bannerMeuNegocio',
+
+        components: {
+            gratisComponent
+        }
     }
 </script>
 
