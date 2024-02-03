@@ -20,17 +20,17 @@
                     </div>
 
                     <div class="select-container">
-                        <div class="select-box">
-                            <select name="job" required>
-                                <option value="#">Genero de clientes:</option>
+                        <div>
+                            <select name="gender" required>
+                                <option value="#">Genero de clientes preferido:</option>
                                 <option value="homen">Homen</option>
                                 <option value="mulher">Mulher</option>
                                 <option value="ambos">Ambos (Os dois generos)</option>
                             </select>
                         </div>
 
-                        <div class="select-box">
-                            <select name="job" required>
+                        <div>
+                            <select name="gender" required>
                                 <option value="#">Onde você presta serviço?</option>
                                 <option value="casar">Na tua casa</option>
                                 <option value="salao">No teu salão</option>
@@ -39,27 +39,29 @@
                         </div>
                     </div>
 
-                    <div class="input-radio">
-                        <label for="car-model">Escolha o serviço que presta ou o que você trata</label>
-                        <div class="radio">
-                            <input type="checkbox" value="big_tires" name="optionals[]">
-                            <label for="big_tires">Cabelo</label>
-                        </div>
-                        <div class="radio">
-                            <input type="checkbox" value="turbo_engine" name="optionals[]">
-                            <label for="turbo_engine">Unhas</label>
-                        </div>
-                        <div class="radio">
-                            <input type="checkbox" value="hybrid" name="optionals[]">
-                            <label for="hybrid">Massagem</label>
-                        </div>
-                        <div class="radio">
-                            <input type="checkbox" value="hybrid" name="optionals[]">
-                            <label for="hybrid">Mackup</label>
-                        </div>
-                        <div class="radio">
-                            <input type="checkbox" value="hybrid" name="optionals[]">
-                            <label for="hybrid">Tratamento facial</label>
+                    <div class="checkbox-container">
+                        <h6>Escolha o serviço que presta ou o que você trata</h6>
+                        <div class="input-checkbox" required>
+                            <div class="checkbox-box">
+                                <input type="checkbox" value="big_tires" name="optionals[]">
+                                <span for="big_tires">Cabelo</span>
+                            </div>
+                            <div class="checkbox-box">
+                                <input type="checkbox" value="turbo_engine" name="optionals[]">
+                                <span for="turbo_engine">Unhas</span>
+                            </div>
+                            <div class="checkbox-box">
+                                <input type="checkbox" value="hybrid" name="optionals[]">
+                                <span for="hybrid">Massagem</span>
+                            </div>
+                            <div class="checkbox-box">
+                                <input type="checkbox" value="hybrid" name="optionals[]">
+                                <span for="hybrid">Mackup</span>
+                            </div>
+                            <div class="checkbox-box">
+                                <input type="checkbox" value="hybrid" name="optionals[]">
+                                <span for="hybrid">Tratamento facial</span>
+                            </div>
                         </div>
                     </div>
 
@@ -73,7 +75,7 @@
                         <input type="password" id="password" placeholder="Senha" required>
                     </div>
 
-                    <button type="submit">Iniciar teste grátid</button>
+                    <button type="submit">Iniciar teste grátis</button>
                 </form>
             </div>
         </div>
